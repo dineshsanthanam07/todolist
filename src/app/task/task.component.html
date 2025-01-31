@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="card-row">
+        <div class="card-header">
+           <h2> My task</h2>
+        </div>
+        <div class="card-body">
+
+            <input class="form-control" type="text" [(ngModel)]="taskname" placeholder="new task" >
+            <button class="btn btn-outline-primary my-3" (click)="add()" type="submit">add task</button>
+           <app-task-list [tasks]="tasks">
+
+           </app-task-list>
+
+        </div>
+    </div>
+    
+</div>

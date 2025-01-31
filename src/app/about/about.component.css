@@ -1,0 +1,19 @@
+
+.card{
+    margin-top:10%;
+   margin-left: 30%;
+   margin-right: 30%;
+    align-content: center;
+    text-align: justify;
+    letter-spacing: 0.1cap;
+    font-size: large;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: aqua;
+    box-shadow: 2px,2px,2px,2px,aqua !important;
+    background-color: beige;
+   
+    
+
+
+}

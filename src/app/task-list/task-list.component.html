@@ -1,0 +1,9 @@
+
+<div>
+                
+    <ul><li class="d-flex" *ngFor="let i =index;let t of tasks" >
+        {{t}}
+<button class ="btn btn-outline-danger" (click)="deletetask(i)"type="button">delete</button>
+    </li></ul>
+    
+</div>
